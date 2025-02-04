@@ -1,3 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Empêche le scroll */
+    height: 100%;
+}
+canvas {
+    display: block;
+}
+
+
 .btn-foret {
     display: block;
     margin: 20px auto;
