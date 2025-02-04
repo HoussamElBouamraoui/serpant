@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Serpent - Le Jeu Classique</title>
+
+</head>
+<body>
+    <header class="header1">
+        
+        <h1 id="tete">  Un Voyage dans le PassE avec Snake ! </h1>
+        <br><br>
+
+       
+        <p>Retour aux origines du jeu vidéo avec Snake, un classique intemporel qui a marqué des générations ! Souviens-toi des premiers téléphones et des heures passées à guider ce serpent affamé… Aujourd’hui, replonge dans cette expérience rétro et redécouvre le plaisir simple mais addictif de ce jeu légendaire.</p>
+        
+        <div id="ligne"></div> 
+        <br><br>    
+    </header>
+
+    <img src="snake.png " alt="snake" class="snake">
+    <section id="text">
+        
+        <h2>📜 Une Légende du Jeu Vidéo</h2>
+        <div id="ligne2"></div>
+        <p>Né dans les années 70 et inspiré du jeu d’arcade Blockade, Snake s’est imposé comme un incontournable du jeu vidéo. C’est surtout dans les années 90, avec son intégration sur les téléphones Nokia, qu’il devient une véritable icône. Son gameplay simple mais addictif en fait un passe-temps universel, où chaque mouvement compte et la moindre erreur est fatale.Aujourd’hui, Snake revient dans toute sa simplicité et son charme rétro. Toujours aussi captivant, il mettra vos réflexes et votre patience à l’épreuve.</p>
+        <img src="arbre.png" alt="arbre" class="arbre">
+        <br><br>  <br><br> <br><br> <br><br>   
+
+    </section>
+
+    <section id="jouer">
+        <h3>🎮 Comment jouer ?</h3>
+        <nav>
+            <ul id="liste">
+                <li><p1 >-Utilise les flèches directionnelles pour guider ton serpent➡️⬆️⬇️⬅️</p1></li>
+                <li><p1 >-Mange les fruits pour grandir et battre ton propre record.</p1></li>
+                <li><p1 >-Évite les murs et ta propre queue, sinon c’est la fin !</p1></li>
+                
+                
+            </ul>
+        </nav>
+        <br><br>
+        
+    </section>
+    
+
+    <section id="classique">
+        <h4>🔥 Un Classique Indémodable</h4>
+        <div id="fin">
+            <p3 id="fin1">Les graphismes sont simples, le concept est basique… et pourtant, l’addiction est immédiate ! Arriveras-tu à battre ton propre score et prouver que tu es un véritable maître du Snake ?</p3>
+            <br><br><br>
+            <p3 id="fin2">Prends une bouffée de nostalgie et lance-toi dans cette aventure rétro ! 🚀🐍</p3>
+        </div>
+        <button id="modeForet" class="btn-foret">🌲 Commencer 🌲</button>
+        <script>
+            document.getElementById("modeForet").addEventListener("click", function() {
+                window.location.href = "game.html"; // Redirige vers game.html
+            });
+        </script>
+        <br> <br> <br> <br> <br> <br>
+    </section>
+    
+</body>
+</html>

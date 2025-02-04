@@ -1,0 +1,187 @@
+*{
+    
+    margin:0;
+    padding:0;
+} 
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#tete{
+    font-family: "Minecrafter","Mad hacker", sans-serif;
+    padding-top:10px;
+    font-size:50px;
+    
+}
+
+@keyframes borderColorChange {
+    0% {
+        border-color: white;
+    }
+    50% {
+        border-color: green;
+    }
+    100% {
+        border-color: white;
+    }
+}
+
+
+
+header p{
+    font-size:20px;
+    text-align:center;
+    padding-top:20px;
+    width: 900px;
+    margin:auto;
+    font-family: "Kenyan Coffee",serif;
+    border: 2px solid white;
+    padding: 10px;
+    animation: borderColorChange 2s infinite;
+
+}
+.snake{
+    
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+     
+
+}
+h2{
+    font-size:40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Stretch Pro",serif;
+    padding: 30px;
+    
+}
+#text{
+    background-color: rgb(17, 106, 17);
+    background: linear-gradient(to top, rgb(255, 255, 255), green);
+    
+}
+
+p{
+    font-size:18px;
+    text-align:center;
+    padding-top:20px;
+    width: 900px;
+    margin:auto;
+    font-family: "LEMON MILK",serif;  
+    border: 2px solid white;
+    padding: 20px 20px 20px 20px  ;
+    border-radius: 10%;
+    
+}
+.arbre{
+    
+    position:absolute;
+    margin: 0;
+    width: 50%;
+    max-width: 160px;
+    height: 100;
+    margin-top:-330px;
+     
+
+}
+#jouer {
+    background: linear-gradient(to top, rgb(0,128, 0), rgb(254, 254, 254));
+}
+h3 {
+    font-size:40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "LEMON MILK",serif;
+    padding: 30px;
+}
+#liste {
+    display: inline-block; 
+    text-align: center;
+    font-size: 25px;
+    font-family: "LEMON MILK", serif;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border-radius: 8px;
+    border: 0px solid white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    left: 14%;
+    
+    cursor: pointer;
+    
+}
+#liste:hover {
+    transform: translateX(10px); /* Déplace légèrement à droite */
+    background-color: #ffffff; /* Change la couleur */
+    color: #000000; /* Change la couleur du texte */
+}
+    
+    
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Supprime les puces */
+}
+#classique{
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 128, 0));
+}
+h4{
+    font-size:40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "LEMON MILK",serif;
+    padding: 30px; 
+    padding-top: 30px;
+}
+#fin{
+    font-size:20px;
+    text-align: center;
+    padding: 20px;
+}
+#fin1 {
+    font-size:20px;
+    
+    padding-top:20px;
+    width: 500px;
+    margin:auto;
+    font-family: "LEMON MILK",serif;
+    
+
+}
+#fin2 {
+    font-size:20px ;
+    font-family: "LEMON MILK",serif;
+}
+.btn-foret {
+    display: block;
+    margin: 20px auto; /* Centre le bouton */
+    padding: 15px 25px;
+    font-size: 18px;
+    font-family: "LEMON MILK", serif;
+    color: white;
+    background-color: #117010; /* Vert foncé */
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-foret:hover {
+    background-color: #19a719; /* Change de couleur au survol */
+    transform: scale(1.1); /* Effet de zoom */
+}
+
+
+
+
+
+
+
